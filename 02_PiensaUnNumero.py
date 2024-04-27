@@ -1,4 +1,4 @@
-#Proyecyo 03 - Piensa un número
+#Proyecyo 02 - Piensa un número que lo adivino
 #Juego interactivo 
 """"
 #El usuario debe ser invitado a pensar en un número secreto, y el
