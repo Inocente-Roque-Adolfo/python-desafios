@@ -84,7 +84,7 @@ while True:
                     #cambio
                     cambio = 0
                     cambio = paga - debe
-                    print(f'\n* Tiene cambio de S/ {cambio}.\n** Gracias por su compra.\n')
+                    print(f'\n* Tiene cambio de S/ {round(cambio,2)}.\n** Gracias por su compra.\n')
                     break
                 
         elif opcion == 4:
@@ -93,7 +93,7 @@ while True:
         else:
             print(f'\nNo existe la opcion {opcion}\n')
     except ValueError:
-        print(f'\nNo existe esa opcion\n')
+        print(f'\nIngresa lo requerido por el app\n')
     except Exception as e:
         print(f'\n¡Error!: {e}\n')
     #else:
